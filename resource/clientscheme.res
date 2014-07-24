@@ -18,6 +18,12 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+		//custom colors
+		"SPHUDBlack"			"15 15 15 255"
+		"SPHUDYellow"			"252 204 48 255"
+		"SPHUDBlue"				"0 175 255 255"
+		"SPHUDRed"				"255 0 0 255"
+		
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -2395,93 +2401,84 @@ Scheme
 			}
 		}
 		//////////////////////////Custom SP-hud fonts///////////////////////////
-		CodeBold12
+		
+		NeouCircle32
 		{
 			"1"
 			{
-				"name"		"Code-Bold"
-				"tall"		"12"
+				"name"		"Neou Thin"
+				"tall"		"32"
 				"antialias" "1"
 			}
-		}
-		CodeBold18
+		}NeouCircle48
 		{
 			"1"
 			{
-				"name"		"Code-Bold"
-				"tall"		"18"
-				"antialias" "1"
-			}
-		}
-		CodeBold24
-		{
-			"1"
-			{
-				"name"		"Code-Bold"
-				"tall"		"24"
-				"antialias" "1"
-			}
-		}
-		CodeBold36
-		{
-			"1"
-			{
-				"name"		"Code-Bold"
-				"tall"		"36"
-				"antialias" "1"
-			}
-		}
-		CodeBold48
-		{
-			"1"
-			{
-				"name"		"Code-Bold"
+				"name"		"Neou Thin"
 				"tall"		"48"
 				"antialias" "1"
 			}
 		}
-		CodeLight12
+		NeouCircle56
 		{
 			"1"
 			{
-				"name"		"Code-Light"
+				"name"		"Neou Thin"
+				"tall"		"56"
+				"antialias" "1"
+			}
+		}
+		Beat12
+		{
+			"1"
+			{
+				"name"		"abeatbyKai"
 				"tall"		"12"
 				"antialias" "1"
 			}
 		}
-		CodeLight18
+		Beat18
 		{
 			"1"
 			{
-				"name"		"Code-Light"
+				"name"		"abeatbyKai"
 				"tall"		"18"
 				"antialias" "1"
 			}
 		}
-		CodeLight24
+		Beat24
 		{
 			"1"
 			{
-				"name"		"Code-Light"
+				"name"		"abeatbyKai"
 				"tall"		"24"
 				"antialias" "1"
 			}
 		}
-		CodeLight36
+		Beat36
 		{
 			"1"
 			{
-				"name"		"Code-Light"
+				"name"		"abeatbyKai"
 				"tall"		"36"
 				"antialias" "1"
 			}
 		}
-		CodeLight48
+		Beat48
 		{
 			"1"
 			{
-				"name"		"Code-Light"
+				"name"		"abeatbyKai"
 				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		Beat56
+		{
+			"1"
+			{
+				"name"		"abeatbyKai"
+				"tall"		"56"
 				"antialias" "1"
 			}
 		}
@@ -2530,6 +2527,15 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		ComfortaaBold56
+		{
+			"1"
+			{
+				"name"		"Comfortaa Bold"
+				"tall"		"56"
+				"antialias" "1"
+			}
+		}
 		ComfortaaLight12
 		{
 			"1"
@@ -2575,6 +2581,15 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		ComfortaaLight56
+		{
+			"1"
+			{
+				"name"		"Comfortaa Light"
+				"tall"		"56"
+				"antialias" "1"
+			}
+		}
 		ComfortaaReg12
 		{
 			"1"
@@ -2617,6 +2632,15 @@ Scheme
 			{
 				"name"		"Comfortaa"
 				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		ComfortaaReg56
+		{
+			"1"
+			{
+				"name"		"Comfortaa"
+				"tall"		"56"
 				"antialias" "1"
 			}
 		}
@@ -4528,28 +4552,28 @@ Scheme
 		}
 		"7"
 		{
-			"font" "resource/fonts/CODE_Bold.otf"
-			"name" "Code-Bold"
+			"font" "resource/fonts/ABEAKRG.ttf"
+			"name" "abeatbyKai"
 		}
 		"8"
-		{
-			"font" "resource/fonts/CODE_Light.otf"
-			"name" "Code-Light"
-		}
-		"9"
 		{
 			"font" "resource/fonts/Comfortaa-Bold.ttf"
 			"name" "Comfortaa Bold"
 		}
-		"10"
+		"9"
 		{
 			"font" "resource/fonts/Comfortaa-Light.ttf"
 			"name" "Comfortaa Light"
 		}
-		"11"
+		"10"
 		{
 			"font" "resource/fonts/Comfortaa-Regular.ttf"
 			"name" "Comfortaa"
+		}
+		"11"
+		{
+			"font" "resource/fonts/Neou-Thin.ttf"
+			"name" "Neou Thin"
 		}
 	}
 }
